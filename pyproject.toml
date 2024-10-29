@@ -1,0 +1,16 @@
+[project]
+name = "prairie-dog-tunnel"
+version = "0.0.1"
+description = "Prairie Dog Proxy Tunnel"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "typer>=0.12.5",
+]
+
+[project.scripts]
+prairie-dog-tunnel = "prairie_dog_tunnel:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
